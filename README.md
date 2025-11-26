@@ -6,6 +6,7 @@ A Sample login flow built with **SwiftUI**, **MVVM** with both Unit(XCTest) and 
 ## Project Structure
 ```
 SampleiOS/
+├── Sample.xcodeproj                → Project file    
 ├── Sample/
 │   └── SampleiOSApp.swift        	→ App entry point
 │   └── ContentView.swift         	→ UI layer (SwiftUI)
@@ -30,13 +31,15 @@ SampleiOS/
 ---
 # Running the Project
 
-Open the project in Xcode (16+ recommended)
+Open the project in Xcode(.xcodeproj) (16+ recommended)
 
 Build & Run on: iOS Simulator
 
 # Xcode
 ```
-Navigate to Test file and Run the class
+App -> Open the project in Xcode(.xcodeproj extension file) (16+ recommended)
+
+Tests -> Navigate to Test file and Run the class
 ```
 
 # Unit Tests (Terminal)

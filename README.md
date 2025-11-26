@@ -30,20 +30,26 @@ SampleiOS/
 ---
 # Running the Project
 
-Open the project in Xcode (15+ recommended)
+Open the project in Xcode (16+ recommended)
 
-Build & run on: iOS Simulator
+Build & Run on: iOS Simulator
 
-Xcode
-```Navigate to Test file and run the class```
+# Xcode
+```
+Navigate to Test file and Run the class
+```
 
-Unit Tests (Terminal)
-```xcodebuild test \
+# Unit Tests (Terminal)
+```
+xcodebuild test \
   -scheme SampleiOS \
-  -destination 'platform=iOS Simulator,name=deviceName'```
+  -destination 'platform=iOS Simulator,name=deviceName'
+```
 
-UI Tests (Terminal)
-```xcodebuild test \
+# UI Tests (Terminal)
+```
+xcodebuild test \
   -scheme SampleiOS \
   -destination 'platform=iOS Simulator,name=deviceName' \
-  -only-testing SampleiOS_UITests```
+  -only-testing SampleiOS_UITests
+```

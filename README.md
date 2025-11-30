@@ -29,6 +29,15 @@ SampleiOS/
 
 ```
 ---
+
+## ScreenRecording
+This app uses Credentials **Username**: test, **Password**: password
+
+
+https://github.com/user-attachments/assets/dfabd43f-d1bf-43e7-adb0-b891d707f794
+
+
+---
 # Running the Project
 
 Open the project in Xcode(.xcodeproj) (16+ recommended)

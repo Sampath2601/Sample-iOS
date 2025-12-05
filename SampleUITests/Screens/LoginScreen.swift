@@ -13,7 +13,6 @@ final class LoginScreen: BaseScreen {
     lazy var passwordField = app.secureTextFields["Password"]
     lazy var loginButton = app.buttons["Login"]
 
-    // MARK: - Dynamic elements (computed)
     lazy var usernameError = app.staticTexts["Invalid Username"]
     lazy var passwordError = app.staticTexts["Invalid Password"]
     lazy var offlineMessage = app.staticTexts["No Internet Connection"]

@@ -29,6 +29,19 @@ SampleiOS/
 
 ```
 ---
+---
+## UI Test Architecture
+
+- Implemented automated UI test framework using **XCUITest**.
+- Scalable test framework using **Page Object Model (POM)** pattern.
+- Structured test layers into:
+  - `Base Test` → centralized app launch & setup
+  - `Screen classes` → encapsulated UI interactions & assertions
+  - `Test classes` → scenario-based validation
+- Used stable accessibility identifiers for reliable UI element selection.
+- Added utility helpers to simulate controlled test states.
+- Ensured clean separation of readability, and maintainability.
+---
 
 ## ScreenRecording
 This app uses Credentials **Username**: test, **Password**: password
